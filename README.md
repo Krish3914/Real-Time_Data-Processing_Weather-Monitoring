@@ -67,35 +67,35 @@ This structure provides a clear separation of concerns, making it easier to mana
 
 ## 🚀 Features
 
-- ### Display Real-Time Weather Data:
+1. ### Display Real-Time Weather Data:
   - Weather conditions, temperature, humidity, and more for current locations and major metro cities.
   - Uses Axios to fetch data from weather APIs.
-- ### Real-Time Data Updates:
+2. ### Real-Time Data Updates:
   - Automatically updates weather data every 10 minutes using setInterval().
   - Handles asynchronous data fetch with async/await in the JavaScript event loop.
-- ### Temperature Conversion:
+3. ### Temperature Conversion:
   - Converts temperatures between Celsius, Fahrenheit, and Kelvin using an O(1) time complexity formula.
     
-- ### Data Storage and Analysis:
+4. ### Data Storage and Analysis:
   - Stores weather data in MongoDB for future analysis and visualization.
   - Enables historical data plotting, such as temperature trends over time.
-- ### Weather Summaries:
+5. ### Weather Summaries:
   - Generates summaries using the Gemini-1.5 Pro Model, selected for its faster and more efficient output compared to Flash.
 
-- ### Interactive Data Visualization:
+6. ### Interactive Data Visualization:
   - Displays temperature trends in a Line Graph using Chart.js and react-chartjs-2.
   - The X-axis represents the time of data updates, while the Y-axis shows the temperature.
-- ### Security:
+7. ### Security:
   - Implements IP hashing to mitigate DDoS attacks.
   - Requests exceeding a threshold from the same IP trigger a 2-second response delay.
  
-- ### Alert Thresholds:
+8. ### Alert Thresholds:
   - Users can set temperature thresholds and receive alerts when the temperature exceeds those limits.
   - Uses EmailJS to send alert notifications.
-- ### Additional Weather Information:
+9. ### Additional Weather Information:
   - Provides extra data such as humidity, wind speed, minimum and maximum temperatures, and average temperature.
 
-- ### Responsive Design:
+10. ### Responsive Design:
   - Ensures the website is fully responsive and adapts seamlessly to all screen sizes.
 
 ## API Endpoints
