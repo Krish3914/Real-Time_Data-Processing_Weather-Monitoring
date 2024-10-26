@@ -1,7 +1,8 @@
-# Weather Monitoring App
+# 🌤️ Real-Time Weather Monitoring System with Rollups and Aggregates
 
 ![Alt text](images/dash.png)
 ![Alt text](images/chart.png)
+
 
 ## Overview
 
@@ -52,22 +53,17 @@ This structure provides a clear separation of concerns, making it easier to mana
 
 ## Design Choices
 
-1. **MERN Stack**: We chose the MERN (MongoDB, Express.js, React.js, Node.js) stack for its flexibility, scalability, and the ability to use JavaScript throughout the stack.
+1. **MERN Stack**: We chose the MERN (MongoDB, Express.js, React.js, Node.js) stack for its flexibility and JavaScript ecosystem.
 
-2. **Abstract Syntax Tree (AST)**: ASTs are used to represent rules because they provide a flexible and powerful way to structure and evaluate complex logical expressions.
+2. **Real-time Updates**: The system fetches weather data at configurable intervals to provide near real-time updates.
 
-3. **Modular Architecture**: The backend is structured with separate routes, models, and utility functions for better organization and maintainability.
+3. **Daily Summaries**: We generate daily summaries to provide aggregated insights, which are useful for trend analysis.
 
-4. **React Hooks**: We use React Hooks for state management in the frontend, providing a clean and efficient way to handle component state and side effects.
+4. **Alerting System**: The alerting system is designed to be configurable and can be easily extended to include more complex conditions.
 
-5. **RESTful API**: The backend exposes a RESTful API, making it easy to interact with the rule engine from various clients.
+5. **Visualization**: We use Chart.js for creating visual representations of the weather data, making it easier for users to understand trends.
 
-6. **MongoDB**: MongoDB was chosen as the database for its flexibility in storing complex data structures like ASTs.
-
-7. **Error Handling**: Comprehensive error handling is implemented both in the frontend and backend to provide clear feedback to users and developers.
-
-8. **Minimal UI Design**: The frontend uses a clean, minimal design to focus on functionality while maintaining good user experience.
-9. 
+6. **Modular Architecture**: The project is structured with separate components and services for better organization and maintainability.
 
 ## API Endpoints
 
@@ -165,11 +161,23 @@ This structure provides a clear separation of concerns, making it easier to mana
    ```
 
    For the time being, I have provided my OpenWeatherMap API key and MongoDB connection string in the code. It is better to use your own and store them inside a .env file for security reasons.
+   <br>
 
 ## Accessing the Application
 
 - Frontend: [http://localhost:5173](http://localhost:5173)
 - Backend: [http://localhost:5000](http://localhost:5000)
+<br>
+
+## 🔮 Future Enhancements
+
+- ### User Authentication:
+  - Add user profiles to save personalized settings and thresholds.
+- ### Enhanced Data Visualization:
+  - Add additional chart types (e.g., bar charts, pie charts) for different weather metrics.
+- ### API Integration:
+  - Expand support to more cities and integrate with multiple weather APIs for improved accuracy.
+
 
 <br><br>
 
