@@ -1,12 +1,15 @@
 # Weather Monitoring App
 
+![Alt text](images/dash.png)
+![Alt text](images/chart.png)
+
 ## Overview
 
 The Weather Monitoring App is a real-time service designed to provide weather data for major Indian cities. This application allows users to retrieve current weather information, including temperature, humidity, and weather conditions, as well as access historical weather data stored in a MongoDB database. Built with the MERN stack (MongoDB, Express, React, Node.js), the app fetches data from the OpenWeatherMap API and displays it in a user-friendly interface. Users can view detailed weather information for specific cities and monitor temperature trends over time.
 
 ## Demo Video Link:
 
-https://drive.google.com/file/d/1YSfPQO3dKUiD8ICOv3TgOcDoWYo9tNNd/view?usp=sharing
+https://drive.google.com/file/d/1QAIEasZz3i2NpKwc3QR2wi9euVXlJun1/view
 
 ## Project Structure
 
@@ -46,6 +49,25 @@ https://drive.google.com/file/d/1YSfPQO3dKUiD8ICOv3TgOcDoWYo9tNNd/view?usp=shari
 - `README.md`: Documentation file for the project.
 
 This structure provides a clear separation of concerns, making it easier to manage and maintain the application.
+
+## Design Choices
+
+1. **MERN Stack**: We chose the MERN (MongoDB, Express.js, React.js, Node.js) stack for its flexibility, scalability, and the ability to use JavaScript throughout the stack.
+
+2. **Abstract Syntax Tree (AST)**: ASTs are used to represent rules because they provide a flexible and powerful way to structure and evaluate complex logical expressions.
+
+3. **Modular Architecture**: The backend is structured with separate routes, models, and utility functions for better organization and maintainability.
+
+4. **React Hooks**: We use React Hooks for state management in the frontend, providing a clean and efficient way to handle component state and side effects.
+
+5. **RESTful API**: The backend exposes a RESTful API, making it easy to interact with the rule engine from various clients.
+
+6. **MongoDB**: MongoDB was chosen as the database for its flexibility in storing complex data structures like ASTs.
+
+7. **Error Handling**: Comprehensive error handling is implemented both in the frontend and backend to provide clear feedback to users and developers.
+
+8. **Minimal UI Design**: The frontend uses a clean, minimal design to focus on functionality while maintaining good user experience.
+9. 
 
 ## API Endpoints
 
@@ -148,3 +170,10 @@ This structure provides a clear separation of concerns, making it easier to mana
 
 - Frontend: [http://localhost:5173](http://localhost:5173)
 - Backend: [http://localhost:5000](http://localhost:5000)
+
+<br><br>
+
+## Profile-Info
+- Email:  krishagrawal3914@gmail.com
+- Portfolio: https://krishfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/krishagrawal-softwaredevelopment/
