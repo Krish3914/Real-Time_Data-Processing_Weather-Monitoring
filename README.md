@@ -146,12 +146,14 @@ This structure provides a clear separation of concerns, making it easier to mana
 
 ### Monitored Cities
 
+- Jaipur
 - Delhi
 - Mumbai
 - Chennai
 - Bangalore
 - Kolkata
 - Hyderabad
+- Ranchi
 
 ## Setup and Installation
 
